@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+	width:550px;
+}
+
+h1{
+	margin:40px;
+}
+label[id^="error-"]{
+	color: red;
+	width:150px;
+}
+
+label{
+        position:absolute;
+        left:2px;
+        font-size:6px;
+      }
+      
+.inputArea{
+  position:relative;
+	width:300px;
+    top:-24px;
+    
+    left:200px;
+}
+
+.inputArea button{
+  position:relative;
+  top:25px;
+}
+
+.text{
+  
+  text-align:right;
+  width:200px;
+}
+.isLogin{
+	color:red;
+	text-align:center;
+	font-size:12px;
+}

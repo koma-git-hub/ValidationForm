@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+label[id^="error-"]{
+	color: red;
+	width:150px;
+}
+
+#DBValid-name,#DBValid-id{
+	color:black;
+}
+
+label{
+        position:absolute;
+        left:2px;
+        font-size:6px;
+      }
+      
+.inputArea{
+  position:relative;
+    top:-24px;
+    width:200px;
+    left:200px;
+}
+
+.inputArea button{
+  position:relative;
+  top:20px;
+}
+
+.text{
+  
+  text-align:right;
+  width:200px;
+}
